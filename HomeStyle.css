@@ -1,3 +1,30 @@
-﻿body
-{
+﻿.card{
+}
+
+.card-title {
+    color: white;
+}
+.card-text{
+    color : white;
+
+}
+.card_img_top{
+
+}
+.card-body {
+    background-color: #000f;
+}
+.title{
+    border : 5px;
+    border-color: white;
+    padding-top: 2em;
+    padding-left: 30em;
+    font-size: 25px;
+    color : black;
+}
+body {
+    background-color: #FFFFFF;
+}
+.btn-Reg{
+    
 }
