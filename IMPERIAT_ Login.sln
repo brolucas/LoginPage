@@ -3,9 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{754DB147-62E4-4B7C-B70D-1DF7C01085B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HTML", "HTML", "{AB721425-BEA0-46C1-B975-EAC66711A6B2}"
+	ProjectSection(SolutionItems) = preProject
+		Home.html = Home.html
+		Login.html = Login.html
+		Register.html = Register.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSS", "CSS", "{40701C70-2D89-4C07-984C-31B9A5015F94}"
+	ProjectSection(SolutionItems) = preProject
+		HomeStyle.css = HomeStyle.css
+		Login.css = Login.css
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AB721425-BEA0-46C1-B975-EAC66711A6B2} = {754DB147-62E4-4B7C-B70D-1DF7C01085B0}
+		{40701C70-2D89-4C07-984C-31B9A5015F94} = {754DB147-62E4-4B7C-B70D-1DF7C01085B0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6C2B29D7-B05A-4F5B-8518-EDAC4283AE08}
