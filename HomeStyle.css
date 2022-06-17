@@ -16,20 +16,11 @@
 .card-body {
     background-color: #000f;
 }
-.title{
-    border: solid;
-    margin-top: 2em;
-    margin-left: 30em;
-    margin-right:35em;
-    font-size: 25px;
-    color : black;
-}
+
 body {
     background-color: gray;
 }
-.btn-Reg{
-    
-}
+
 .stock{
     display: flex;
     justify-content: center;
